@@ -5,7 +5,29 @@ body{
     font-size: 1em;
 }
 
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.2em 3.94em;
+}
 
+.menu-list{
+    display: flex;
+    align-items: center;
+}
+
+.menu-item{
+margin-right: 3.1em;
+}
+
+.blue-btn{
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 1.15em 1.94em;
+    border-radius: 4.8em;
+    margin: 1.3em;
+}
 
 
 .first-screen{
@@ -14,8 +36,13 @@ body{
     background-image: url("../img/first-screen.png");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
 }
 
+.first-screen-container{
+    width: 50%;
+}
 
 .main-title{
     font-weight: 800;
@@ -26,4 +53,13 @@ body{
 
 .main-description{
 
+}
+
+.description-screen{
+    display: flex;
+    flex-direction: column;
+}
+
+.description-block{
+    display: flex;
 }
