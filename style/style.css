@@ -86,7 +86,7 @@ margin-right: 3.1em;
 
 .about-us-title{
     font-size: 3.5em;
-    max-width: 50%;
+    max-width: 55%;
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -136,4 +136,26 @@ margin-right: 3.1em;
 
 .btn{
     border: none;
+}
+
+.mission-description{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding: 10vh 10vw;
+}
+
+.mission-description-text{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    font-size: 1.5rem;
+}
+
+.zigzag{
+    position: absolute;
+    z-index: -1;
+    top: 10vw;
+    right: 15vw;
+
 }
