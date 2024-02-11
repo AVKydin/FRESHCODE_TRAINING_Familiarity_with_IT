@@ -159,3 +159,24 @@ margin-right: 3.1em;
     right: 15vw;
 
 }
+
+
+
+
+
+
+.subscription-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.ntp{
+    max-width: 540px;
+    height: 66px;
+    font-size: 1.4rem;
+}
+
+.npt-btn{
+    max-width: 540px;
+    height: 64px;
+}
