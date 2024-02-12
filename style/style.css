@@ -7,13 +7,14 @@ body{
 }
 
 .header-container{
-    background-color: #FFFFFF;
+    background-color: #73A6B1;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.2em 3.94em;
+    padding: 1em 3.94em;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 
 .menu-list{
@@ -32,6 +33,7 @@ margin-right: 3.1em;
     border-radius: 4.8em;
     margin: 1.3em;
     cursor: pointer;
+    font-family: Montserrat, serif;
 }
 
 
@@ -160,10 +162,92 @@ margin-right: 3.1em;
 
 }
 
+.support-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
 
+.support-us-title{
+    font-size: 3.75rem;
+    margin-bottom: 1.5rem;
+}
 
+.support-us-text{
+    font-size: 1.25rem;
+    color: #73A6B1;
+    margin-bottom: 2.5rem;
+}
 
+.support-us-goal{
+    font-size: 1.69rem;
+    margin-bottom: 1rem;
+}
 
+.support-us-collected{
+    font-size: 3.75rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.border-right{
+    border-right: 2px solid #9AD2DE;
+    padding: 0 1rem;
+}
+
+.no-border{
+    border: none;
+}
+
+.contacts{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacts-title{
+    font-size: 3.75rem;
+}
+
+.contact-phone{
+    margin-bottom: 2.5rem;
+}
+
+.contact-text{
+    margin: 1rem 0;
+    font-size: 1.25rem;
+    width: 60%;
+}
+
+.phone{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.contact-social-text{
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.subscription{
+    display: flex;
+    margin-top: 7rem;
+    justify-content: space-evenly;
+    margin-bottom: 7rem;
+}
+
+.subscription-block{
+    width: 40%;
+}
+
+.subscription-text{
+    font-size: 1.69rem;
+    margin-bottom: 2rem;
+    width: 70%;
+}
 
 .subscription-form{
     display: flex;
@@ -174,9 +258,16 @@ margin-right: 3.1em;
     max-width: 540px;
     height: 66px;
     font-size: 1.4rem;
+    font-family: Montserrat, serif;
+    padding: 0 2rem;
+    background-color: #F9FADF;
+    border: none;
 }
 
 .npt-btn{
     max-width: 540px;
     height: 64px;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.125rem;
+    margin: 2rem 0;
 }
