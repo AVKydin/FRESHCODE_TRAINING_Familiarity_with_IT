@@ -272,19 +272,12 @@ margin-right: 3.1em;
 
 @media screen and (max-width: 425px) {
     .header-container{
-        background-color: #73A6B1;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         padding: 1em 1em;
-        position: sticky;
-        top: 0;
-        z-index: 2;
     }
 
     .menu-list{
       flex-wrap: wrap;
-        justify-content: center;
+      justify-content: center;
     }
 
     .menu-item{
@@ -294,10 +287,7 @@ margin-right: 3.1em;
 
     .first-screen{
         height: auto;
-        background-image: url("../img/first-screen.png");
-        background-repeat: no-repeat;
         background-size: contain;
-        display: flex;
         align-items: start;
         padding: 1em 1em;
     }
@@ -307,50 +297,33 @@ margin-right: 3.1em;
     }
 
     .main-title{
-        font-weight: 800;
         font-size: 1.20em;
-        line-height: 0.95;
-        color: #000000;
         margin-bottom: 1rem;
     }
 
     .main-description{
-        width: 70%;
-        font-size: 1em;
         margin-bottom: 0.8em;
     }
 
     .white-btn{
-        background-color: #FFFFFF;
-        border: none;
         font-size: 0.8rem;
-        margin: 0;
     }
 
     .about-us{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         padding: 5vh 5vw;
     }
 
     .about-us-title{
         font-size: 2em;
         max-width: 100%;
-        text-align: center;
-        margin-bottom: 1rem;
     }
 
     .about-us-goal{
         font-size: 1.18rem;
-        margin-bottom: 1rem;
     }
 
     .description-block{
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        padding: 2vh 2vw;
         margin-bottom: 0.5rem;
     }
 
@@ -361,31 +334,22 @@ margin-right: 3.1em;
     .description-header{
         width: 100%;
         font-size: 1.875em;
-        margin-bottom: 1rem;
     }
 
     .description-text{
         width: 100%;
-        line-height: 25px;
     }
 
     .photo{
         width: 95%;
-        padding: 2vh 2vw;
-        background-color: #F1FDFF;
     }
 
     .mission-description{
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        position: relative;
-        padding: 10vh 10vw;
     }
 
     .mission-description-text{
-        display: flex;
-        align-items: center;
         width: 100%;
         font-size: 1rem;
     }
@@ -405,25 +369,20 @@ margin-right: 3.1em;
 
     .support-us-text{
         font-size: 1rem;
-        color: #73A6B1;
         margin-bottom: 1.5rem;
     }
 
     .support-us-goal{
         font-size: 1rem;
-        margin-bottom: 1rem;
     }
 
     .support-us-collected{
         font-size: 1.75rem;
-        display: flex;
-        align-items: center;
         margin-bottom: 1rem;
     }
 
     .contacts{
         margin-top: 1rem;
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
@@ -449,7 +408,6 @@ margin-right: 3.1em;
     }
 
     .subscription{
-        display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 1rem;
@@ -466,14 +424,10 @@ margin-right: 3.1em;
     }
 
     .subscription-text{
-        font-size: 1.69rem;
-        margin-bottom: 2rem;
         width: 99%;
     }
 
     .subscription-form{
-        display: flex;
-        flex-direction: column;
         align-items: center;
     }
 
@@ -483,19 +437,12 @@ margin-right: 3.1em;
 
     .ntp{
         max-width: 340px;
-        height: 66px;
-        font-size: 1.4rem;
-        font-family: Montserrat, serif;
         padding: 0 0.5rem;
-        background-color: #F9FADF;
-        border: none;
+
     }
 
     .npt-btn{
         max-width: 340px;
-        height: 64px;
-        font-family: Montserrat, sans-serif;
-        font-size: 1.125rem;
         margin: 1rem 0;
     }
 }
