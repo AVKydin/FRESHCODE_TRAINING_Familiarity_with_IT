@@ -22,6 +22,8 @@ function checkForm(elmts) {
     button.innerText = "Героям слава!"
     modalErr.append(button)
     body.append(modalErr)
+    elmts.name.value = ''
+    elmts.email.value = ''
 }
 
 button.onclick = () =>{
